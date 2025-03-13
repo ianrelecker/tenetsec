@@ -1,7 +1,6 @@
 # TenetSec
 
 <div align="center">
-  <img src="docs/images/logo_placeholder.png" alt="TenetSec Logo" width="200" height="200" style="display: none;">
   <h1>TenetSec</h1>
   <p><strong>Advanced Security Assessment Tool for Microsoft 365 Tenants</strong></p>
   <p>
