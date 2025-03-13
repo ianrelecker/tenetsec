@@ -1,5 +1,3 @@
-# TenetSec
-
 <div align="center">
   <h1>TenetSec</h1>
   <p><strong>Advanced Security Assessment Tool for Microsoft 365 Tenants</strong></p>
