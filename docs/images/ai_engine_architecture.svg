@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <style>
+    .box { fill: #fff; stroke: #333; stroke-width: 2; }
+    .arrow { fill: none; stroke: #333; stroke-width: 2; }
+    .arrowhead { fill: #333; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .assess { fill: #d4f1f9; stroke: #0078d4; }
+    .process { fill: #e3f2fd; stroke: #0078d4; }
+    .api { fill: #fff7e6; stroke: #ff8c00; }
+    .result { fill: #e6ffe6; stroke: #107c10; }
+    .security { fill: #ffe6e6; stroke: #d13438; }
+  </style>
+
+  <!-- Boxes -->
+  <rect x="50" y="100" width="150" height="100" rx="5" class="box assess" />
+  <rect x="250" y="100" width="150" height="100" rx="5" class="box security" />
+  <rect x="450" y="100" width="150" height="100" rx="5" class="box process" />
+  <rect x="450" y="230" width="150" height="40" rx="5" class="box api" />
+  <rect x="650" y="100" width="150" height="100" rx="5" class="box result" />
+
+  <!-- Text -->
+  <text x="125" y="125" class="text">Security</text>
+  <text x="125" y="145" class="text">Assessment</text>
+  <text x="125" y="165" class="text">Results</text>
+
+  <text x="325" y="125" class="text">Data</text>
+  <text x="325" y="145" class="text">Anonymization</text>
+  <text x="325" y="165" class="text">Engine</text>
+
+  <text x="525" y="125" class="text">Prompt</text>
+  <text x="525" y="145" class="text">Engineering &amp;</text>
+  <text x="525" y="165" class="text">API Integration</text>
+
+  <text x="525" y="250" class="text" style="font-size: 14px;">External AI API</text>
+
+  <text x="725" y="125" class="text">Actionable</text>
+  <text x="725" y="145" class="text">Security</text>
+  <text x="725" y="165" class="text">Recommendations</text>
+
+  <!-- Arrows -->
+  <path d="M 200 150 L 250 150" class="arrow" />
+  <polygon points="245,145 255,150 245,155" class="arrowhead" />
+
+  <path d="M 400 150 L 450 150" class="arrow" />
+  <polygon points="445,145 455,150 445,155" class="arrowhead" />
+
+  <path d="M 525 200 L 525 230" class="arrow" />
+  <polygon points="520,225 525,235 530,225" class="arrowhead" />
+
+  <path d="M 525 230 L 525 200" class="arrow" />
+  <polygon points="520,205 525,195 530,205" class="arrowhead" />
+
+  <path d="M 600 150 L 650 150" class="arrow" />
+  <polygon points="645,145 655,150 645,155" class="arrowhead" />
+
+  <!-- Labels -->
+  <text x="225" y="135" class="text" style="font-size: 12px;">Raw</text>
+  <text x="225" y="150" class="text" style="font-size: 12px;">Security</text>
+  <text x="225" y="165" class="text" style="font-size: 12px;">Data</text>
+
+  <text x="425" y="135" class="text" style="font-size: 12px;">Anonymized</text>
+  <text x="425" y="150" class="text" style="font-size: 12px;">Security</text>
+  <text x="425" y="165" class="text" style="font-size: 12px;">Data</text>
+
+  <text x="625" y="135" class="text" style="font-size: 12px;">Processed</text>
+  <text x="625" y="150" class="text" style="font-size: 12px;">AI</text>
+  <text x="625" y="165" class="text" style="font-size: 12px;">Response</text>
+
+  <text x="480" y="215" class="text" style="font-size: 12px;">API</text>
+  <text x="480" y="230" class="text" style="font-size: 12px;">Request</text>
+
+  <text x="570" y="215" class="text" style="font-size: 12px;">API</text>
+  <text x="570" y="230" class="text" style="font-size: 12px;">Response</text>
+
+  <!-- Cloud icon for external API -->
+  <path d="M 525,250 m -30,-10 q -10,0 -15,10 q -10,-5 -15,5 q -5,10 5,15 h 50 q 10,-5 5,-15 q -5,-10 -15,-5 q -5,-10 -15,-10" 
+        style="fill: none; stroke: #ff8c00; stroke-width: 1; opacity: 0.5;" />
+</svg>

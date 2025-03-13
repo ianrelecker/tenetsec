@@ -1,0 +1,15 @@
+{
+  "tenant_id": "your-tenant-id",
+  "client_id": "your-client-id",
+  "client_secret": "your-client-secret",
+  "scopes": [
+    "https://graph.microsoft.com/.default"
+  ],
+  
+  "ai_recommendations": {
+    "enabled": true,
+    "api_key": "your-ai-api-key",
+    "api_endpoint": "https://api.openai.com/v1/chat/completions",
+    "api_model": "gpt-4"
+  }
+}

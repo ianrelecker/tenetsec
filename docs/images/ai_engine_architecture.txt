@@ -1,0 +1,17 @@
+AI Engine Architecture
+
+Security Assessment Results -> Data Anonymization Engine -> Prompt Engineering & API Integration -> Actionable Security Recommendations
+
+The AI recommendation engine consists of four main components:
+
+1. Security Assessment Results: The output from all security assessment modules
+2. Data Anonymization Engine: Scrubs sensitive tenant information from assessment results
+3. Prompt Engineering & API Integration: Creates structured prompts and handles API communication with external AI services
+4. External AI API: Provides advanced language processing capabilities (OpenAI, Azure OpenAI, etc.)
+5. Actionable Security Recommendations: Prioritized, detailed security recommendations with implementation steps
+
+Data flow:
+- Raw security assessment results are first processed by the anonymization engine
+- Anonymized data is formatted into prompts and sent to external AI API
+- AI responses are parsed and formatted into structured recommendations
+- Recommendations are integrated into the security report
