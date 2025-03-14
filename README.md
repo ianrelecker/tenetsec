@@ -15,6 +15,7 @@ TenetSec is a comprehensive security assessment tool that identifies vulnerabili
 ## ✨ Key Features
 
 - **Comprehensive Security Analysis** - Evaluates security configurations across all major M365 services
+- **Safe to Use** - Only requires Read access, Anonymizes data sent to Ai, collects no data. 
 - **AI-Powered Recommendations** - Provides detailed, contextual remediation steps using anonymized data
 - **Multi-format Reporting** - Generates console, HTML, and JSON reports with visual indicators
 - **Prioritized Findings** - Categorizes issues by severity and business impact
@@ -22,6 +23,7 @@ TenetSec is a comprehensive security assessment tool that identifies vulnerabili
 - **Privacy-Focused** - All API integration uses robust anonymization to protect sensitive tenant data
 - **Modern Graph API Integration** - Uses the latest Microsoft Graph APIs for reliable assessments
 - **Customizable Assessment Rules** - Add or modify security checks based on your requirements
+
 
 ## 📊 Assessment Areas
 
